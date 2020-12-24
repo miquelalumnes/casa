@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/w3.css">
+    <title>Game intro</title>
+</head>
+<style>
+    
+    #start {
+        font-family: 'oxin';
+        color: coral;
+    }
+    
+    #time {
+        font-family: fantasy;
+        color: aqua;
+    }
+
+    @font-face {
+        font-family: 'oxin';
+        src: url('fonts/oxin.ttf');
+    }
+
+    #button {
+
+        padding-top: 20vh;
+    }
+
+    #numbers {
+        /*
+        height: 100vh;
+        width: 100vw;
+*/
+        padding-top: 5vh;
+        font-size: 10vw;
+    }
+
+</style>
+
+<body>
+    <center>
+
+        <div id="button">
+            <button class="w3-btn w3-round-large w3-xxxlarge w3-border" id="start" onclick="countdown()">start</button>
+        </div>
+        <div id="numbers"></div>
+    </center>
+    <script>
+        function countdown() {
+            window.location.href = "levelSelect.php";
+        }
+
+    </script>
+</body>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
