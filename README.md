@@ -4,7 +4,7 @@ Students can sign up at the <code>registration.php</code> page, and log in at th
 
 <code>repcounter.html</code> is a simple tally counter. It can help a student with exercises where the student needs to play an excerpt correctly a set number of times.
 
-<code>loop_practice.php</code> shows up to three videos that loop without end. This encourages the student to either watch the videos or play with the videos repeatedly without the effort of pressing a button at each repetition. Please note that the video filenames need to be lowercase, in the format <code>username-loop.mp4</code>, and stored in the directory named <code>/lrc</code>.
+<code>loop_practice.php</code> shows up to three videos that loop until paused. This encourages the student to either watch the videos or play with the videos repeatedly without the effort of pressing a button at each repetition. Speed control buttons appear under each video. Please note that the video filenames need to be lowercase, in the format <code>username-loop.mp4</code>, and stored in the directory named <code>/lrc</code>.
 
 <code>process2.php</code> allows a student to check their practice log and leave a comment for the teacher at the end of each practice session.
 
