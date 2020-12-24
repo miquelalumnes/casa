@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+   <link rel="stylesheet" href="repcounter.css" />
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body style="background-image: url('')">
+   <a href="practice.php" style="font-family: sans-serif">Torna enrere</a><br>
+    <script>
+        var clickCount = 0;
+
+
+        function addOneToCount() {
+
+            clickCount += 1;
+            document.getElementById("countDisplay").innerHTML = clickCount;
+            var audio = document.getElementById("uptick");
+            audio.play();
+        }
+
+        function subOneToCount() {
+
+            clickCount -= 1;
+            document.getElementById("countDisplay").innerHTML = clickCount;
+            var audio = document.getElementById("downtick");
+            audio.play();
+        }
+        function resetCount() {
+
+            clickCount = 0;
+            document.getElementById("countDisplay").innerHTML = clickCount;
+        }
+        
+    </script>
+    <div id="counterDiv">
+        <p id="text">Prem el bot&oacute; que correspongui a cada repetici&oacute;!</p>
+        <div id="countDisplay">0</div>
+        <button onclick="subOneToCount()" id="button1">M'he equivocat</button>
+        <button onclick="addOneToCount()" id="button2">Ho he fet b&eacute;</button> <br> <br>
+        <button onclick="resetCount()" id="button3">Torna a zero</button>
+    </div>
+    
+    <audio id="uptick" source src="practice_counter_up.mp3" preload="auto">
+    </audio>
+    <audio id="downtick" source src="practice_counter_down.mp3" preload="auto">
+    </audio>
+
+</body>
+</html>
