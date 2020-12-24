@@ -8,7 +8,7 @@ Students can sign up at the <code>registration.php</code> page, and log in at th
 
 <code>process2.php</code> allows a student to check their practice log and leave a comment for the teacher at the end of each practice session.
 
-<code>logout.php</code> desroys all session data and returns to <code>login.php</code>. This is also called when the <code>loop_practice.php</code> loses focus, as many students are not used to logging out with a button.
+<code>logout.php</code> desroys all session data and returns to <code>login.php</code>. This is also called when <code>loop_practice.php</code> loses focus, as many students are not used to logging out with a button.
 
 The <code>scarps</code> folder contains the necessary files to practice scales and arpeggios. When a student selects a level, a randomly chosen video will play. Once that's done, another randomly chosen video will play. The buttons below the video allow the student to choose two differet speeds.
 
